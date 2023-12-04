@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const Role = () => (
-  <div>
-    <h2>Role</h2>
-    My Home page!
-  </div>
-);
+function Role() {
+    return (
+        <div className={"my-5"}>
+            <h1>In Role Page</h1>
+        </div>
+    )
+}
 
-export default Role;
+export default Role

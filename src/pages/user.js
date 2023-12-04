@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const User = () => (
-  <div>
-    <h2>User</h2>
-    My Home page!
-  </div>
-);
+function User() {
+    return (
+        <div className={"my-5"}>
+            <h1>In User Page</h1>
+        </div>
+    )
+}
 
-export default User;
+export default User

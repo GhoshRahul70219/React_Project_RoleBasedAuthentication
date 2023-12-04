@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const Permission = () => (
-  <div>
-    <h2>Permission</h2>
-    My Home page!
-  </div>
-);
+function Permission() {
+    return (
+        <div className={"my-5"}>
+            <h1>In Permission Page</h1>
+        </div>
+    )
+}
 
-export default Permission;
+export default Permission
