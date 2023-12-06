@@ -11,12 +11,12 @@ function Header() {
 
 
     return (
-        <Navbar bg="dark" data-bs-theme="dark">
+        <Navbar bg="dark" data-bs-theme="primary">
             <Container>
                 <Navbar.Brand href="/">
-                        <span className="text-secondary fw-bold">
-                            React_Project_RoleBasedAuthentication
-                        </span>
+                    <span className="text-white fw-bold">
+                        React_Project_RoleBasedAuthentication
+                    </span>
                 </Navbar.Brand>
                 <Nav className="me-auto ms-5">
                     <Nav.Link className={`mx-1 ${navSelected === 'home' ? 'active fw-bold' : ''}`}>

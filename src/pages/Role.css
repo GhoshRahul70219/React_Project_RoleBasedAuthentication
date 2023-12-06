@@ -1,0 +1,18 @@
+.DtTable{
+    height: 75vh;
+    margin: auto;
+    width: 98%;
+}
+.Fill-Blue{
+    fill: #0051ff;;
+}
+.Fill-Delete{
+    fill: red;
+}
+.createDiv{
+    margin: auto;
+    width: 98%;
+}
+.MainCard{
+    height: 70vh !important;
+}
